@@ -1,0 +1,72 @@
+EXERCICIO PAR OU IMPAR EM C++
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num;
+
+    cout << "Digite um numero: ";
+    cin >> num;
+
+    if (num%2==0)
+        cout <<"eh par"<<endl;
+    else
+        cout <<"É impar"<<endl;
+    
+}
+
+EXERCICIO PESO IDEAL EM C:
+#include <stdio.h>
+
+int main()
+{
+    float Altura,AlturaxPeso=0.0;
+    char Sexo;
+
+    printf("Digite a sua altura (Ex.: 1.75):");
+    scanf("%f",&Altura);
+
+    printf("Digite o seu sexo :");
+    scanf("%c",&Sexo);
+
+    if(Sexo == 'M'){
+        AlturaxPeso+=((72.7*Altura)-58);
+        printf("O seu peso ideal e: %.3f\n",AlturaxPeso);
+    }
+    else
+    {
+        AlturaxPeso=((62.1*Altura)-44.7);
+        printf("O seu peso ideal e: %.3f\n",AlturaxPeso);
+    }
+
+
+} 
+
+
+
+EXERCICIO CONTA DE LUZ EM C :
+
+#include <stdio.h>
+
+int main()
+
+{
+	float CL;
+		
+	printf("Informe o valor da Conta de Luz: ");
+	scanf("%f", &CL);
+
+	if(CL > 50){
+		printf(" Voce gastou muito");
+	}
+	
+	else {
+		printf(" Seu gasto foi normal");
+	}		
+
+}
+
+EXERCICIO ABONO (SO CONSEGUI FAZER EM PORTUGOL)
+

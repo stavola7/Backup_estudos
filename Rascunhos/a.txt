@@ -1,0 +1,103 @@
+EXERCICIO PAR OU IMPAR EM C++
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num;
+
+    cout << "Digite um numero: ";
+    cin >> num;
+
+    if (num%2==0)
+        cout <<"eh par"<<endl;
+    else
+        cout <<"É impar"<<endl;
+    
+}
+
+EXERCICIO PESO IDEAL EM C:
+#include <stdio.h>
+
+int main()
+{
+    float Altura,AlturaxPeso=0.0;
+    char Sexo;
+
+    printf("Digite a sua altura (Ex.: 1.75):");
+    scanf("%f",&Altura);
+
+    printf("Digite o seu sexo :");
+    scanf("%c",&Sexo);
+
+    if(Sexo == 'M'){
+        AlturaxPeso+=((72.7*Altura)-58);
+        printf("O seu peso ideal e: %.3f\n",AlturaxPeso);
+    }
+    else
+    {
+        AlturaxPeso=((62.1*Altura)-44.7);
+        printf("O seu peso ideal e: %.3f\n",AlturaxPeso);
+    }
+
+
+} 
+
+
+
+EXERCICIO CONTA DE LUZ EM C :
+
+#include <stdio.h>
+
+int main()
+
+{
+	float CL;
+		
+	printf("Informe o valor da Conta de Luz: ");
+	scanf("%f", &CL);
+
+	if(CL > 50){
+		printf(" Voce gastou muito");
+	}
+	
+	else {
+		printf(" Seu gasto foi normal");
+	}		
+
+}
+
+EXERCICIO ABONO EM C
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+    int anoNascimento, idade;
+    float salarioBruto, abono;
+    char sexo;
+    
+    printf("Informe o ano de Nascimento : ");
+    scanf("%d", &anoNascimento);
+    
+    printf("Informe o salario : ");
+    scanf("%f", &salarioBruto);
+    
+    printf("Informe sua idade : ");
+    scanf("%d", &idade);
+    
+    if (anoNascimento <= 1982){
+    	printf("O valor do abono eh  %f", abono = salarioBruto * 0.15);
+	}
+	else{
+		printf("O valor do abono eh  %f" , abono = salarioBruto * 0.25 );	
+		
+	}
+	
+	printf("\n\nSalario acrescido do abono eh %f ", abono + salarioBruto);
+    
+    
+    
+}
+    
