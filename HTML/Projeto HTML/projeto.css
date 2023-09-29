@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(188, 228, 235, 0.096);
+}
+header{
+    background-color: rgb(0, 51, 102);
+}
+div{
+  background-color: white;
+}
+.nome{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  color:rgb(51, 102, 0);
+  font-size: 20px;
+}
+.logo{
+    display: inline-block;
+    margin-left: 895px;
+    width: 70px;
+    padding: 5px;
+    border: 1x
+}
+.titulologo{
+    color: rgb(51, 102, 0);
+    font-size: 18px;
+    font-family: Verdana;
+    font-style: italic;
+    margin-left: 850px;
+}
+.listaheader {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 51, 102);
+  }
+  
+  .home {
+    float: left;
+  }
+  .sobre {
+    float: left;
+  }
+  .contato {
+    float: left;
+  }
+  
+  .home a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .sobre a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .contato a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .home a:hover {
+    background-color: #3eaa0c;
+  }
+  .sobre a:hover {
+    background-color: #3eaa0c;
+  }
+  .contato a:hover {
+    background-color: #3eaa0c;
+  }
+.foguetesh2{
+    text-align: center;
+}
+
+.foguete{
+    font-size:23px;
+    text-shadow: 1px 1px 1px grey;
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+}
+video {
+  display: block;
+  width: 750px;
+  margin:0 auto;
+}
+footer {
+	background-color: rgb(0, 51, 102);
+	color: white;
+	padding: 20px;
+	text-align:center;
+	margin-top: 50px;
+}
+.social-icons{
+  list-style: none;
+  padding: 0;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 10px;
+}
+.social-icons a {
+  text-decoration: none;
+}
+.custom-icons{
+  height: 40px;
+  width: 40;
+}

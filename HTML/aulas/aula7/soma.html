@@ -1,0 +1,26 @@
+<!DOCTYPE html>   
+<html lang="pt-br" >
+    <head>
+        <title>Soma</title>
+        <meta charset="utf-8" />   
+        <script>
+            function somar() {
+                var parcela1 = document.getElementById("par1").value;
+                var parcela2 = document.getElementById("par2").value;
+                var soma = parseInt(parcela1) + parseInt(parcela2);
+                document.getElementById("res").value = soma;
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            Parcela 1: <br>
+            <input type="text" id="par1" /><br><br>
+            Parcela 2: <br>
+            <input type="text" id="par2" /><br><br>
+            Resultado: <br>
+            <input type="text" id="res" /><br><br>           
+            <input type="button" value="Somar" onClick="somar()" />
+        </form>
+    </body>
+</html>
